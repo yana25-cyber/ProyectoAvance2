@@ -4,17 +4,19 @@
  */
 package com.mycompany.proyecto2.Clases;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author yana1
  */
 public class Registrar_Cliente {
     //Atributos
-    private int codigo;
-    private String cliente;
-    private int cedula;
-    private int totalproductos;
-    private double facturacion;
+    public int codigo;
+    public String cliente;
+    public int cedula;
+    public int totalproductos;
+    public double facturacion;
     
     //constructor
 
