@@ -4,6 +4,7 @@
 
 package com.mycompany.proyecto2;
 
+import com.mycompany.proyecto2.Clases.Ventas_Diarias;
 import com.mycompany.proyecto2.Clases.Registrar_Cliente;
 import javax.swing.JOptionPane;
 
@@ -20,6 +21,8 @@ public class Proyecto2 {
         Registrar_Cliente clientes[] = new Registrar_Cliente[100];
         int contador = 0;
         int opcion= 0;
+        
+        Ventas_Diarias ventas = new Ventas_Diarias();
         
         //menu
         do{
@@ -38,6 +41,10 @@ public class Proyecto2 {
                         JOptionPane.showMessageDialog(null, codigo, cliente, cedula);
                     }
             
+                    break;
+                    
+                case 5:
+                    ventas.menuVentas();
                     break;
             }
             
